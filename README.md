@@ -1,3 +1,59 @@
+# Graph Structure and Algorithms
+
+---
+
+## Project Description
+
+This project offers a detailed implementation of fundamental graph algorithms, aiming to demonstrate a deep understanding of data structures, algorithms, and modern programming techniques in C++. Developed as part of the Fundamental Algorithms course, it reflects the knowledge and skills acquired in programming and solving complex problems.
+
+### Features
+
+The project includes a complete implementation of classes and functions necessary for manipulating and analyzing complex graphs, covering a wide range of algorithms and classic problems:
+
+- **Graph Input and Display**: Allows reading graphs from files and representing them using adjacency lists, adjacency matrices, or edge lists.
+- **Graph Traversal**: Implementations for traversing graphs using BFS and DFS, both iteratively and recursively.
+- **Shortest Path Algorithms**:
+  - **Dijkstra** (for weighted graphs)
+  - **Bellman-Ford** (for graphs with positive, negative, or zero weights)
+  - **Floyd-Warshall** (to determine the shortest paths between all pairs of nodes)
+- **Minimum Spanning Tree Algorithms**:
+  - **Kruskal**
+  - **Prim**
+- **Algorithms for Connected and Strongly Connected Components**:
+  - **Flood Fill**
+  - **Tarjan**
+  - **Kosaraju**
+- **Topological Sorting** (for Directed Acyclic Graphs)
+- **Algorithms for Bipartite Graphs and Maximum Matchings**:
+  - Checking if a graph is bipartite
+  - **Hopcroft-Karp Algorithm**
+- **Maximum Flow and Minimum Cost Flow**:
+  - **Edmonds-Karp Algorithm**
+  - Minimum-cost maximum flow
+- **Critical Path Determination in a Weighted Directed Graph** (Critical Path Method - CPM)
+- **Identifying Critical Points and Bridges in an Undirected Graph**
+- **Special Problems**:
+  - **Havel-Hakimi** for constructing an undirected graph from a degree sequence
+  - Checking and constructing **Hamiltonian** and **Eulerian** graphs
+  - Algorithm for 6-color graph coloring
+- **Other Algorithms**:
+  - **Clustering** based on Kruskal's algorithm
+  - Functions for calculating Levenshtein distance between character strings
+
+### Technologies and Concepts Used
+
+- **Object-Oriented Programming (OOP)**: The main `Graph` class plays a central role in this implementation, leveraging OOP principles for organizing and structuring the code.
+- **Recursive and Iterative Functions**: Traversal algorithms are implemented both recursively and iteratively, demonstrating flexibility in problem-solving approaches.
+- **Greedy Algorithms and Dynamic Programming**: Algorithms like Dijkstra, Bellman-Ford, Prim, and Floyd-Warshall are implemented using greedy and dynamic programming techniques.
+- **Advanced Data Structures**: The project uses structures such as heaps, stacks, priority queues, and more from the STL to optimize algorithms.
+- **Modular Design**: The code is organized in a modular manner, allowing easy extension and reuse of components for future projects.
+
+### Project Goal
+
+This code serves as an academic evaluation but also as an opportunity to showcase my skills in implementing and utilizing algorithms for complex graphs. The project can be used as a foundation for developing more advanced applications or as an educational resource for learning basic and advanced graph algorithms.
+
+___
+
 # Graph-structure-and-algorithms
 
 ---
